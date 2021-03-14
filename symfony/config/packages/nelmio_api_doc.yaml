@@ -1,0 +1,4 @@
+nelmio_api_doc:
+    areas:
+        path_patterns: # an array of regexps
+            - ^/top_repositories
