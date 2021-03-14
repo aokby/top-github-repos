@@ -1,13 +1,13 @@
-#GitHub Top Repositories API
+# GitHub Top Repositories API
 
 Get most popular GitHub repositories and filter it by creation date and/or programming language
 
-#Environment (using Docker)
+# Environment (using Docker)
 - php 7.4
 - NGINX 1.19
 - Symfony skeleton 4.4
 
-#Installation
+# Installation
 - `docker-compose build`
 - `docker-compose up`
 - Visit http://localhost:8080/api/doc for API Documentation UI
