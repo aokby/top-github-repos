@@ -11,13 +11,13 @@ use Symfony\Component\{HttpFoundation\Request, Routing\Annotation\Route, HttpFou
  */
 class DefaultController
 {
-	/**
-	 * default action to return empty 200 response
-	 * it is used to test initial installation only
-	 * 
-	 * @return Response empty 200 response
-	 */
-	public function index(): Response {
-		return new Response();
-	}
+    /**
+     * default action to return empty 200 response
+     * it is used to test initial installation only
+     * 
+     * @return Response empty 200 response
+     */
+    public function index(): Response {
+        return new Response();
+    }
 }
